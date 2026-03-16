@@ -1,4 +1,4 @@
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,323 +20,322 @@
 
 <body>
 
-    <!-- Section 1: Homepage -->
-    <section id="home" class="view-section active">
-        <div class="content">
-            <h1>Happy Birthday, Appu!! 🎂</h1>
-            <p>Today is all about celebrating you.</p>
+<!-- Section 1: Homepage -->
+<section id="home" class="view-section active">
+    <div class="content">
+        <h1>Happy Birthday, Appu!! 🎂</h1>
+        <p>Today is all about celebrating you.</p>
 
-            <div class="img-container home-img">
-                <img src="assets/cat_birthday_cake_1773682150383.png" alt="Birthday Cat Illustration">
-            </div>
-
-            <p class="subtitle">
-                Before we travel down memory lane, let's see how well you remember our friendship.
-            </p>
-
-            <button class="btn primary-btn" id="start-btn">
-                Start the Birthday Challenge 🎮
-            </button>
-        </div>
-    </section>
-
-
-    <!-- Section 2: Friendship Challenge -->
-    <section id="challenge" class="view-section hidden">
-
-        <div class="progress-indicator">
-            Friendship Challenge <span id="challenge-step">1</span> of 2
+        <div class="img-container home-img">
+            <img src="assets/cat_birthday_cake_1773682150383.png" alt="Birthday Cat Illustration">
         </div>
 
+        <p class="subtitle">
+            Before we travel down memory lane, let's see how well you remember our friendship.
+        </p>
 
-        <!-- Game 1 -->
-        <div id="game-1" class="game-container active">
+        <button class="btn primary-btn" id="start-btn">
+            Start the Birthday Challenge 🎮
+        </button>
+    </div>
+</section>
 
-            <h2>Guess the Memory</h2>
 
-            <div class="img-container blur-container" id="blur-img-container">
-                <img src="assets/reunion.jpeg" alt="Blurred Memory" id="blur-img">
-            </div>
+<!-- Section 2: Friendship Challenge -->
+<section id="challenge" class="view-section hidden">
 
-            <p class="question-text">Where was this memory from?</p>
+<div class="progress-indicator">
+Friendship Challenge <span id="challenge-step">1</span> of 2
+</div>
 
-            <div class="options-grid" id="game1-options">
 
-                <button class="btn option-btn">
-                    A trip we never got a chance to take
-                </button>
+<!-- Game 1 -->
+<div id="game-1" class="game-container active">
 
-                <button class="btn option-btn" data-correct="true">
-                    School
-                </button>
+<h2>Guess the Memory</h2>
 
-                <button class="btn option-btn">
-                    Home
-                </button>
+<div class="img-container blur-container" id="blur-img-container">
+<img src="assets/reunion.jpeg" alt="Blurred Memory" id="blur-img">
+</div>
 
-                <button class="btn option-btn">
-                    Food Bells
-                </button>
+<p class="question-text">Where was this memory from?</p>
 
-            </div>
+<div class="options-grid" id="game1-options">
 
+<button class="btn option-btn">
+A trip we never got a chance to take
+</button>
 
-            <div id="game1-feedback" class="feedback hidden">
-                <p class="success-msg">
-                    Correct! Remember how mad you were at me that day..
-                    Ohh god the drama, I kind of miss it 😂
-                </p>
+<button class="btn option-btn" data-correct="true">
+School
+</button>
 
-                <button class="btn primary-btn" id="next-game-btn">
-                    Next Challenge ➡️
-                </button>
-            </div>
+<button class="btn option-btn">
+Home
+</button>
 
-        </div>
+<button class="btn option-btn">
+Food Bells
+</button>
 
+</div>
 
-        <!-- Game 2 -->
-        <div id="game-2" class="game-container hidden">
 
-            <h2>Friendship Quiz</h2>
+<div id="game1-feedback" class="feedback hidden">
+<p class="success-msg">
+Correct! Remember how mad you were at me that day..
+Ohh god the drama, I kind of miss it 😂
+</p>
 
-            <div class="quiz-container">
+<button class="btn primary-btn" id="next-game-btn">
+Next Challenge ➡️
+</button>
+</div>
 
+</div>
 
-                <div class="quiz-question active" id="q1">
 
-                    <p class="question-text">
-                        When was the first time you visited my place
-                    </p>
+<!-- Game 2 -->
+<div id="game-2" class="game-container hidden">
 
-                    <div class="options-grid quiz-options">
+<h2>Friendship Quiz</h2>
 
-                        <button class="btn option-btn">
-                            My birthday
-                        </button>
+<div class="quiz-container">
 
-                        <button class="btn option-btn" data-correct="true">
-                            Food without fire
-                        </button>
 
-                        <button class="btn option-btn">
-                            The day we went out and vlogged
-                        </button>
+<div class="quiz-question active" id="q1">
 
-                    </div>
+<p class="question-text">
+When was the first time you visited my place
+</p>
 
-                </div>
+<div class="options-grid quiz-options">
 
+<button class="btn option-btn">
+My birthday
+</button>
 
+<button class="btn option-btn" data-correct="true">
+Food without fire
+</button>
 
-                <div class="quiz-question hidden" id="q2">
+<button class="btn option-btn">
+The day we went out and vlogged
+</button>
 
-                    <p class="question-text">
-                        Which was the one song we both were obsessed with?
-                    </p>
+</div>
 
-                    <div class="options-grid quiz-options">
+</div>
 
-                        <button class="btn option-btn" data-correct="true">
-                            Closer
-                        </button>
 
-                        <button class="btn option-btn">
-                            Sweety
-                        </button>
 
-                        <button class="btn option-btn">
-                            Lal Bindi
-                        </button>
+<div class="quiz-question hidden" id="q2">
 
-                    </div>
+<p class="question-text">
+Which was the one song we both were obsessed with?
+</p>
 
-                </div>
+<div class="options-grid quiz-options">
 
+<button class="btn option-btn" data-correct="true">
+Closer
+</button>
 
-            </div>
+<button class="btn option-btn">
+Sweety
+</button>
 
+<button class="btn option-btn">
+Lal Bindi
+</button>
 
-            <div id="game2-feedback" class="feedback hidden">
+</div>
 
-                <button class="btn primary-btn" id="unlock-timeline-btn">
-                    Unlock Memory Lane ⏳
-                </button>
+</div>
 
-            </div>
 
-        </div>
+</div>
 
-    </section>
 
+<div id="game2-feedback" class="feedback hidden">
 
+<button class="btn primary-btn" id="unlock-timeline-btn">
+Unlock Memory Lane ⏳
+</button>
 
-    <!-- Section 3: Memory Lane -->
-    <section id="timeline" class="view-section hidden">
+</div>
 
-        <h2 class="section-title">Memory Lane</h2>
+</div>
 
-        <div class="timeline-container">
+</section>
 
 
-            <div class="timeline-item">
-                <div class="timeline-date">4th April 2018</div>
-                <div class="timeline-content">
-                    <h3>The Day We Met</h3>
-                    <p>
-                        It all started on that day.
-                        I had no clue I would be meeting someone
-                        who would become such a crucial part of my life.
-                    </p>
-                </div>
-            </div>
 
+<!-- Section 3: Memory Lane -->
+<section id="timeline" class="view-section hidden">
 
+<h2 class="section-title">Memory Lane</h2>
 
-            <div class="timeline-item">
+<div class="timeline-container">
 
-                <div class="timeline-date">26 Jan 2019</div>
 
-                <div class="timeline-content">
+<div class="timeline-item">
+<div class="timeline-date">4th April 2018</div>
+<div class="timeline-content">
+<h3>The Day We Met</h3>
+<p>
+It all started on that day.
+I had no clue I would be meeting someone
+who would become such a crucial part of my life.
+</p>
+</div>
+</div>
 
-                    <h3>The First time you came home</h3>
 
-                    <div class="img-container">
-                        <img src="assets/1st-1.jpeg" alt="Home">
-                    </div>
 
-                    <p>
-                        That day was sooo much fun. I wish I could just go back
-                        to those carefree days.
-                    </p>
+<div class="timeline-item">
 
-                </div>
-            </div>
+<div class="timeline-date">26 Jan 2019</div>
 
+<div class="timeline-content">
 
+<h3>The First time you came home</h3>
 
-            <div class="timeline-item">
+<div class="img-container">
+<img src="assets/1st-1.jpeg" alt="Home">
+</div>
 
-                <div class="timeline-date">Feb 2020</div>
+<p>
+That day was sooo much fun. I wish I could just go back
+to those carefree days.
+</p>
 
-                <div class="timeline-content">
+</div>
+</div>
 
-                    <h3>The Day we went out for the first time</h3>
 
-                    <div class="img-container">
-                        <img src="assets/memory1.jpeg" alt="Memory">
-                    </div>
 
-                    <p>
-                        We went to have ice cream and planned that day for so long.
-                    </p>
+<div class="timeline-item">
 
-                </div>
+<div class="timeline-date">Feb 2020</div>
 
-            </div>
+<div class="timeline-content">
 
+<h3>The Day we went out for the first time</h3>
 
+<div class="img-container">
+<img src="assets/memory1.jpeg" alt="Memory">
+</div>
 
-            <div class="timeline-item">
+<p>
+We went to have ice cream and planned that day for so long.
+</p>
 
-                <div class="timeline-date">8 June 2024</div>
+</div>
 
-                <div class="timeline-content">
+</div>
 
-                    <h3>My Fav Picture of Ours</h3>
 
-                    <div class="img-container">
-                        <img src="assets/memory2.jpeg" alt="Favourite memory">
-                    </div>
 
-                    <p>
-                        The first time you visited the current house.
-                    </p>
+<div class="timeline-item">
 
-                </div>
+<div class="timeline-date">8 June 2024</div>
 
-            </div>
+<div class="timeline-content">
 
+<h3>My Fav Picture of Ours</h3>
 
+<div class="img-container">
+<img src="assets/memory2.jpeg" alt="Favourite memory">
+</div>
 
-            <div class="timeline-item">
+<p>
+The first time you visited the current house.
+</p>
 
-                <div class="timeline-date">Jan 2026</div>
+</div>
 
-                <div class="timeline-content">
+</div>
 
-                    <h3>The Last time we met</h3>
 
-                    <div class="img-container">
-                        <img src="assets/memory3.jpeg" alt="Last time we met">
-                    </div>
 
-                    <p>
-                        We drew a digital penguin, did tattoos and had falooda.
-                    </p>
+<div class="timeline-item">
 
-                </div>
+<div class="timeline-date">Jan 2026</div>
 
-            </div>
+<div class="timeline-content">
 
+<h3>The Last time we met</h3>
 
-        </div>
+<div class="img-container">
+<img src="assets/memory3.jpeg" alt="Last time we met">
+</div>
 
+<p>
+We drew a digital penguin, did tattoos and had falooda.
+</p>
 
+</div>
 
-        <div class="timeline-end">
+</div>
 
-            <button class="btn primary-btn" id="finish-btn">
-                See The Future 🚀
-            </button>
 
-        </div>
+</div>
 
-    </section>
 
 
+<div class="timeline-end">
 
-    <!-- Section 4: Final Birthday Section -->
+<button class="btn primary-btn" id="finish-btn">
+See The Future 🚀
+</button>
 
-    <section id="final-celebration" class="view-section hidden">
+</div>
 
-        <div class="celebration-content">
+</section>
 
-            <h1>Cheers to 21!! 🎉</h1>
 
-            <div class="message-card">
 
-                <p class="big-msg">Happy Birthday!</p>
+<!-- Section 4: Final Birthday Section -->
 
-                <p>
-                    Thank you for all the memories, the chaos, and the laughter.
-                    You make life so much brighter.
-                </p>
+<section id="final-celebration" class="view-section hidden">
 
-                <p>
-                    Here’s to many more adventures together.
-                </p>
+<div class="celebration-content">
 
-                <p>
-                    Happy Birthday my Dearest Foe!!
-                    I wish you nothing but the best in life ❤️
-                </p>
+<h1>Cheers to 21!! 🎉</h1>
 
-            </div>
+<div class="message-card">
 
+<p class="big-msg">Happy Birthday!</p>
 
-            <button class="btn secondary-btn" id="replay-btn">
-                Replay Memories 🔄
-            </button>
+<p>
+Thank you for all the memories, the chaos, and the laughter.
+You make life so much brighter.
+</p>
 
-        </div>
+<p>
+Here’s to many more adventures together.
+</p>
 
-    </section>
+<p>
+Happy Birthday my Dearest Foe!!
+I wish you nothing but the best in life ❤️
+</p>
 
+</div>
 
-    <script src="script.js"></script>
+
+<button class="btn secondary-btn" id="replay-btn">
+Replay Memories 🔄
+</button>
+
+</div>
+
+</section>
+
+
+<script src="script.js"></script>
 
 </body>
-
 </html>
 ```
